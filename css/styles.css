@@ -477,32 +477,7 @@ select:focus {
 }
 
 .butn:hover {
-  color: #fff;
-  border-radius: 3px;
-}
-
-.butn:after {
-  content: "";
-  position: absolute;
-  border-radius: 4px;
-  bottom: 6px;
-  left: 0;
-  height: 2px;
-  -moz-transition: width 0.4s;
-  -ms-transition: width 0.4s;
-  -webkit-transition: width 0.4s;
-  -o-transition: width 0.4s;
-  transition: width 0.4s;
-  width: 0;
-  background: #1b2c58;
-  height: 100%;
-  top: 0;
-  z-index: 1;
-}
-
-.butn:hover:after {
-  width: 100%;
-  border-radius: 3px;
+  opacity: 0.9;
 }
 
 .butn.white {
@@ -515,22 +490,12 @@ select:focus {
   border-radius: 3px;
 }
 
-.butn.white:after {
-  background: #232323;
-  border-radius: 3px;
-}
-
 .butn.white-hover:hover {
   color: #232323;
 }
 
 .butn.white-hover:hover span {
   color: #232323;
-}
-
-.butn.white-hover:after {
-  background: #fff;
-  border-radius: 3px;
 }
 
 .butn.light {
@@ -540,11 +505,6 @@ select:focus {
 
 .butn.light:hover {
   color: #fff;
-  background: #1b2c58;
-  border-radius: 3px;
-}
-
-.butn.light:after {
   background: #1b2c58;
   border-radius: 3px;
 }
