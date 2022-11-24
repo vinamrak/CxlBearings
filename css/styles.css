@@ -563,24 +563,6 @@ select:focus {
   border-radius: 3px;
 }
 
-.butn.theme:after {
-  background: #232323;
-  border-radius: 3px;
-}
-
-.butn.theme.white-hover:hover {
-  color: #232323;
-}
-
-.butn.theme.white-hover:hover span {
-  color: #232323;
-}
-
-.butn.theme.white-hover:after {
-  background: #fff;
-  border-radius: 3px;
-}
-
 .butn.small {
   padding: 8px 20px;
 }
@@ -2182,35 +2164,6 @@ h6.title-style2.white {
     -o-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-}
-
-.banner-form .form-heading {
-  -moz-border-radius-top-left: 4px;
-  -moz-border-radius-top-right: 4px;
-  -ms-border-radius-top-left: 4px;
-  -ms-border-radius-top-right: 4px;
-  -webkit-border-top-left-radius: 4px;
-  -webkit-border-top-right-radius: 4px;
-  -o-border-radius-top-left: 4px;
-  -o-border-radius-top-right: 4px;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-}
-
-.banner-form .mfControls .butn {
-  width: 100%;
-  padding: 15px;
-  margin: 0;
-  -moz-border-radius-bottom-right: 4px;
-  -moz-border-radius-bottom-left: 4px;
-  -ms-border-radius-bottom-right: 4px;
-  -ms-border-radius-bottom-left: 4px;
-  -webkit-border-bottom-right-radius: 4px;
-  -webkit-border-bottom-left-radius: 4px;
-  -o-border-radius-bottom-right: 4px;
-  -o-border-radius-bottom-left: 4px;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
 }
 
 .banner-section .container {

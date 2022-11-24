@@ -113,11 +113,6 @@
   transition: 0.3s all ease;
 }
 
-/*free trial form only*/
-.banner-form .mfControls > * {
-    width: 100%;
-}
-
 @media (max-width: 767px) {
   .mfControls > * {
     width: 100%;
@@ -231,34 +226,6 @@
   -ms-animation: notifanim 0.4s cubic-bezier(0.55, 0, 0.1, 1) forwards;
   -o-animation: notifanim 0.4s cubic-bezier(0.55, 0, 0.1, 1) forwards;
   animation: notifanim 0.4s cubic-bezier(0.55, 0, 0.1, 1) forwards;
-}
-
-/*free trial form only*/
-.banner-form .mfValidation {
-    text-align: right;
-    top: auto;
-    left: auto;
-    top: -18px;
-    right: 15px;
-    background: none;
-    padding: 0;
-    margin: 0 0 3px;
-    min-height: 0;
-    color: #DA7B77;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-.banner-form .mfValidation:before {
-    display: none;
-}
-.banner-form .mfValidation:hover {
-    background: none;
-    right: 5px;
-}
-
-.banner-form .mailform.fail, .banner-form .mailform.success {
-    padding-bottom: 60px;
 }
 
 @media (max-width: 767px) {
@@ -655,26 +622,6 @@
   transition: 0.4s all ease-in-out;
 }
 
-/*free trial form only*/
-.banner-form .mfProgress .msg {
-    width: 230px;
-    top: 100%;
-    left: 50%;
-    margin-top: 20px;
-    margin-left: -115px;
-  }
-.banner-form .mfProgress .msg:before {
-    right: 50%;
-    top: auto;
-    bottom: 100%;
-    margin-right: -6px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 6px 6px 6px;
-    border-color: transparent transparent #111 transparent;
-  }
-
 @media (max-width: 767px) {
   .mfProgress .msg {
     width: 230px;
@@ -716,14 +663,6 @@
   border-color: transparent #F44336 transparent transparent;
 }
 
-/*free trial form only*/
-.banner-form .mfProgress.fail .msg:before {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 6px 6px 6px;
-    border-color: transparent transparent #F44336 transparent;
-}
 @media (max-width: 767px) {
   .mfProgress.fail .msg:before {
     width: 0;
@@ -742,15 +681,6 @@
   border-style: solid;
   border-width: 6px 6px 6px 0;
   border-color: transparent #2E7D32 transparent transparent;
-}
-
-/* banner form only*/
-.banner-form .mfProgress.success .msg:before {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 6px 6px 6px;
-    border-color: transparent transparent #2E7D32 transparent;    
 }
 
 @media (max-width: 767px) {
