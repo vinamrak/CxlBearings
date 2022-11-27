@@ -667,6 +667,7 @@ section.lg {
   display: none;
   font-size: 11px;
 }
+
 [data-overlay-dark],
 [data-overlay-light] {
   position: relative;
@@ -692,8 +693,8 @@ section.lg {
 }
 [data-overlay-dark="75"]:before
 {
-  background: #757575;
-  opacity: 0.75;
+  background: black;
+  opacity: 0.50;
 }
 [data-overlay-dark]:before {
   background: #000;
@@ -702,11 +703,6 @@ section.lg {
   background: #fff;
 }
 
-[]:before
-{
-  background: #757575;
-  opacity: 0.75;
-}
 [data-overlay-dark="0"]:before,
 [data-overlay-light="0"]:before {
   opacity: 0;
