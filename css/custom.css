@@ -1,126 +1,137 @@
-.fontstyle
-{
-	font-size: 1.5em !important;
-}
-.projecticon
-{
-	height: 250px;
-	width: 350px;
-}
-.producttext
-{
-	margin-bottom: 10px;
-	margin-top: 10px;
-}
-.productpadding1
-{
-	padding-bottom: 40px;
-}
-.productpadding2
-{
-	padding-top: 40px;
-	padding-bottom: 20px;
-}
-.productpadding3
-{
-	padding-top: 20px;
-	padding-bottom: 90px;
-}
-.productheading
-{
-	margin-top: 14px;
-}
-.logo
-{
-	margin-left: 0.2%;
-    margin-right: 0.2%;
-    margin-bottom: 4px;
-    width: 19.6%;
-    float: left;
-    background: #fff;
-    text-align: center;
-    box-sizing: border-box;
-    border-radius: 6px;
-}
-.fontweight
-{
-	font-weight: 500 !important;
-}
-.hover-shadow{
-  	-webkit-box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
-  	box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
-  	-webkit-transition: all 0.3s ease-out;
-  	-o-transition: all 0.3s ease-out;
-  	transition: all 0.3s ease-out;
+.fontstyle {
+  font-size: 1.5em !important;
 }
 
-.hover-shadow--hover:hover {
-  	-webkit-box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.15);
-   	box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.15);
-  	-webkit-transform: translateY(-5px);
-   	-ms-transform: translateY(-5px);
-    transform: translateY(-5px);
+.projecticon {
+  height: 250px;
+  width: 350px;
 }
-@media (hover: hover)
-{
-  .menu_area-light .navbar-nav > li > a:hover
-  {
-  transform: scale(1.13);
-  /* text-shadow: 1px 1px 2px white; */
+
+.producttext {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.productpadding1 {
+  padding-bottom: 40px;
+}
+
+.productpadding2 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.productpadding3 {
+  padding-top: 20px;
+  padding-bottom: 90px;
+}
+
+.productheading {
+  margin-top: 14px;
+}
+
+.logo {
+  margin-left: 0.2%;
+  margin-right: 0.2%;
+  margin-bottom: 4px;
+  width: 19.6%;
+  float: left;
+  background: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.fontweight {
+  font-weight: 500 !important;
+}
+
+.hover-shadow {
+  -webkit-box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.hover-shadow:hover {
+  -webkit-box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.15);
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+.hover-bg-blue:hover {
+  background-color: #1b2c58;
+}
+
+.hover-bg-blue:hover .section-heading h6 {
+  color: #fff;
+}
+
+.hover-bg-blue:hover .section-heading h6:after {
+  background: #fff;
+}
+
+@media (hover: hover) {
+  .menu_area-light .navbar-nav>li>a:hover {
+    transform: scale(1.13);
+    /* text-shadow: 1px 1px 2px white; */
   }
 }
 
-.blue-text
-{
+.blue-text {
   color: #1b2c58 !important;
 }
 
 
-.white-shadow{
+.white-shadow {
   text-shadow: 1px 2px 2px white;
 }
 
-.black-shadow{
+.black-shadow {
   text-shadow: 1px 1px 2px black;
 }
 
-.tp-caption.hero-text{
+.tp-caption.hero-text {
   color: #fff !important;
   text-shadow: 1px 1px 2px black;
 }
 
-.tp-bgimg.defaultimg{
+.tp-bgimg.defaultimg {
   filter: grayscale(0.15) invert(0.15) brightness(1.1);
 }
-.hover-footer:hover{
+
+.hover-footer:hover {
   transform: scale(1.02);
 }
-.padding-product
- {
- 	padding: 15px !important;
+
+.padding-product {
+  padding: 15px !important;
 }
 
-.center-box{ 
+.center-box {
   display: grid;
-  place-items: center;  
+  place-items: center;
   flex: 1;
- }
- @media (max-width : 767px)
- {
-  .center-box{
+}
+
+@media (max-width : 767px) {
+  .center-box {
     flex: 1 1 100%;
   }
- } 
-.logo-footer
- {
- 	margin-top: -30px;
 }
-@media (hover: hover)
-{
-  a.hover-left
-  {
+
+.logo-footer {
+  margin-top: -30px;
+}
+
+@media (hover: hover) {
+  a.hover-left {
     position: relative;
   }
+
   a.hover-left:before {
     content: "";
     position: absolute;
@@ -132,6 +143,7 @@
     visibility: hidden;
     transition: all 0.5s ease-in-out;
   }
+
   a.hover-left:hover:before {
     visibility: visible;
     width: 100%;
