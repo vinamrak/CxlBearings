@@ -694,7 +694,7 @@ section.lg {
 [data-overlay-dark="75"]:before
 {
   background: black;
-  opacity: 0.50;
+  opacity: 0.30;
 }
 [data-overlay-dark]:before {
   background: #000;
@@ -1567,8 +1567,15 @@ section.lg {
   background-position: center !important;
   background-repeat: no-repeat !important;
   filter: grayscale(0.15) invert(0.15) brightness(1.1);
-
 }
+
+@media (min-width:768px)
+{
+  .shift-stop{
+    height: 372px;
+  }
+}
+
 .background-size-inherit {
   background-size: inherit;
 }

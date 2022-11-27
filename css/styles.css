@@ -1,4 +1,25 @@
-﻿#preloader {
+﻿.state-class{
+  color: #fff;
+  background-color: #1b2c58;
+  height: 179px;
+  border-radius: 20px;
+  margin: 4px;
+  width: calc(50% - 8px);
+  display: grid;
+  place-items: center;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (max-width:767px)
+{
+  .state-class{
+    height: 120px;
+  }
+}
+
+#preloader {
   position: fixed;
   left: 0;
   top: 0;
@@ -136,13 +157,13 @@ td {
 input,
 textarea,
 select {
-  border: 2px solid rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(0, 0, 0, 0.35);
 }
 
 input:focus,
 textarea:focus,
 select:focus {
-  border: 2px solid rgba(0, 0, 0, 0.5);
+  border: 2px solid #1b2c58;
 }
 
 .bg-container {
@@ -1540,11 +1561,11 @@ h6.title-style2.white {
   }
 
   .menu_area-light .navbar-nav li.current>a {
-    color: #1b2c58;
+    color: #fff;
   }
 
   .menu_area-light .navbar>ul>li.current>a:after {
-    border-color: transparent #1b2c58 #1b2c58 transparent;
+    border-color: transparent #fff #fff transparent;
   }
 
   .menu_area-light.scrollHeader .navbar-nav li.current>a {
@@ -3718,6 +3739,9 @@ h6.title-style2.white {
   margin-bottom: 0;
 }
 
+.service-block4:nth-child(even){
+  background-color: #1b2c58;
+}
 @media screen and (max-width: 1199px) {
   .service-block4:before {
     right: -110px;
@@ -12398,6 +12422,7 @@ pre[class*="language-"] {
 
 .contact-home {
   margin-bottom: -150px;
+  background-color: #dce0e6;
 }
 
 @media (max-width: 1200px) {
