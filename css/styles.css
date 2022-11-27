@@ -3764,12 +3764,12 @@ h6.title-style2.white {
   color: white;
 }
 
-.service-alt:nth-child(odd) .service-block4 i:hover {
+.service-alt:nth-child(odd) .service-block4:hover i {
   color: #1b2c58;
 }
 
 .service-alt:nth-child(odd) .service-block4:hover:before {
-  /* background: #fff; */
+  background: #fff;
 }
 
 @media screen and (max-width: 1199px) {
@@ -12452,7 +12452,14 @@ pre[class*="language-"] {
 
 .contact-home {
   margin-bottom: -150px;
+}
+
+.blue-gray-bg{
   background-color: #dce0e6;
+}
+
+.white-bg{
+  background-color: white;
 }
 
 @media (max-width: 1200px) {
