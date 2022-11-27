@@ -3666,12 +3666,12 @@ h6.title-style2.white {
   height: 120px;
   background: #f7f7f7;
   border-bottom-left-radius: 0;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.1s ease-in-out;
   transform: rotate(45deg);
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
 }
 
 .service-block4:hover:before {
@@ -3690,11 +3690,11 @@ h6.title-style2.white {
   color: #1b2c58;
   font-size: 38px;
   line-height: normal;
-  transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   margin-bottom: 0;
 }
 
@@ -3726,11 +3726,11 @@ h6.title-style2.white {
   background: #1b2c58;
   margin-top: 10px;
   margin-bottom: 15px;
-  -moz-transition-duration: 0.4s;
-  -ms-transition-duration: 0.4s;
-  -webkit-transition-duration: 0.4s;
-  -o-transition-duration: 0.4s;
-  transition-duration: 0.4s;
+  -moz-transition-duration: 0.1s;
+  -ms-transition-duration: 0.1s;
+  -webkit-transition-duration: 0.1s;
+  -o-transition-duration: 0.1s;
+  transition-duration: 0.1s;
 }
 
 .service-block4 p {
@@ -3739,9 +3739,39 @@ h6.title-style2.white {
   margin-bottom: 0;
 }
 
-.service-block4:nth-child(even){
+.service-alt:nth-child(odd) .service-block4{
   background-color: #1b2c58;
+  color: white;
 }
+
+.service-alt:nth-child(odd) .service-block4 .service-desc h4{
+  color: white;
+}
+
+.service-alt:nth-child(odd) .service-block4 .service-desc h5{
+  color: white;
+}
+
+.service-alt:nth-child(odd) .service-block4 .service-desc h5:after{
+  background: white;
+}
+
+.service-alt:nth-child(odd) .service-block4:before {
+  background: #293f77;
+}
+
+.service-alt:nth-child(odd) .service-block4 i {
+  color: white;
+}
+
+.service-alt:nth-child(odd) .service-block4 i:hover {
+  color: #1b2c58;
+}
+
+.service-alt:nth-child(odd) .service-block4:hover:before {
+  /* background: #fff; */
+}
+
 @media screen and (max-width: 1199px) {
   .service-block4:before {
     right: -110px;
