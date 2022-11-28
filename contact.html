@@ -50,7 +50,7 @@
     <div class="main-wrapper">
 
         <!-- start header section -->
-        <header class="header-style1 menu_area-light">
+        <header class="scrollHeader header-style1 menu_area-light">
 
             <div class="navbar-default">
 
@@ -103,15 +103,17 @@
                                                         class="hover-left">6300 series</a></li>
                                             </ul>
                                         </li>
-                                        <li class="hover-navbar"><a href="contact.html">Contact Us</a></li>
+                                        <li class="hover-navbar"><a href="distributor.html">Distributor</a></li>
                                         <li class="hover-navbar"><a href="javascript:void(0)">More</a>
                                             <ul>
                                                 <li class="hover-navbar"><a href="qms.html"
                                                         class="hover-left">Quality</a></li>
                                                 <li class="hover-navbar"><a href="application.html"
                                                         class="hover-left">Applications</a></li>
-                                                <li class="hover-navbar"><a href="distributor.html"
-                                                        class="hover-left">Distributor</a></li>
+                                                <li class="hover-navbar"><a href="gallery.html"
+                                                        class="hover-left">CXL Gallery</a></li>
+                                                <li class="hover-navbar"><a href="contact.html"
+                                                        class="hover-left">Contact Us</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -212,30 +214,28 @@
                             <h6 class="fontweight">your message</h6>
                         </div>
 
-                        <form method="post" action="https://formsubmit.co/vinamrakhoria@gmail.com"
-                            class="mailform off2">
-                            <input type="hidden" name="form-type" value="contact">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <input type="text" name="name" placeholder="Your Name:"
-                                        data-constraints="@LettersOnly @NotEmpty">
+                        <form id="contact-form" method="POST" action="https://formspree.io/f/xeqdwgro"
+                                class="mailform off2">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="text" name="name" placeholder="Your Name:" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" name="phone" placeholder="Telephone:" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" name="email" placeholder="Email:" required>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <textarea name="message" rows="5" placeholder="Message:" required></textarea>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button type="submit" class="butn theme">Submit comment</button>
+                                    </div>
+                                    <div id="form-message" class="col-md-12 blue-text font-size24 font-weight-600">
+                                    </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <input type="text" name="phone" placeholder="Telephone:" data-constraints="@Phone">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" name="email" placeholder="Email:"
-                                        data-constraints="@Email @NotEmpty">
-                                </div>
-                                <div class="col-md-12">
-                                    <textarea name="message" rows="5" placeholder="Message:"
-                                        data-constraints="@NotEmpty"></textarea>
-                                </div>
-                                <div class="mfControls col-md-12">
-                                    <button type="submit" class="butn theme">submit</button>
-                                </div>
-                            </div>
-                        </form>
+                            </form>
                     </div>
                 </div>
 
